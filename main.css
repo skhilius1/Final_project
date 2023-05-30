@@ -1,0 +1,800 @@
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  li a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li button:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  /* .mainSearch{
+    
+  } */
+
+  #logo{
+    margin-top: 20px;
+  }
+
+  .search{
+    box-sizing: border-box;
+    margin-left: 29%; 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    width: 39%;
+    height: 38px;
+
+    background: #FCFCFC;
+
+    border: 1px solid #E2E2E2;
+    border-radius: 6px;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+
+  .menu2{
+    border: 1px solid #D1D1D1;
+    margin-top: 1%;
+  }
+
+  .menu2 ul{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-style: normal;
+    margin-left: 1%
+  }
+
+  .menu2 li a{
+    color: #31353B;
+  }
+
+  .menu2  li a:hover:not(.active){
+    background-color: white;
+  }
+  
+  /* .ads{
+    margin-top: 2%;
+  }
+
+  #firstSlide{
+    margin-left: 2%;
+ 
+  }
+  
+      #firstImage{
+        width: 23%;
+ 
+      }
+
+      #secindSlide{
+        margin-left: 1%;
+      }
+
+      #secondImage{
+        width: 72%;
+      } */
+
+  .flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+      #firstFlex{
+        width: 23%;
+      }
+
+      #secindFlex{
+        margin-left: 2%;
+        width: 72%;
+      }
+
+      #image1{
+        width: 100%;
+        
+      }
+
+      #image2{
+        width: 100%;
+    
+      }
+
+  
+  .bills{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+  }
+
+      #thirdSlide{
+        width: 23%;
+      }
+      #flash{
+        width: 100%;
+      }
+
+      #forthSlide{
+        margin-left: 2%;
+        width: 72%;
+        border: 1px solid #E2E2E2;
+        border-radius: 8px
+      }
+     
+      .flexUtility{
+        display: flex;
+        justify-content: space-around;
+      }
+
+      #text{
+        margin-right: 75%;
+        align-items: flex-start;
+        margin-top: 2%;
+      }
+      
+      #seeAll{
+        background: #FCFCFC;
+        width: 100px;
+        height: 38px;
+        border: 2px solid #E2E2E2;
+        border-radius: 8px;
+        margin-top: 25%;
+      }
+
+      #Bills{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #212121;
+        font-weight: 600;        
+      }
+
+      .internal{
+        margin-left: 1%;
+        border-bottom: 1px solid #E2E2E2;
+
+      }
+
+      #internal{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+      }
+
+      #internal li a{
+        color:  #828282;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+      }
+      
+      #internal li a:hover:not(.active) {
+        background-color: white;
+      }
+
+
+      .transaction{
+        display: flex;
+        margin-top: 2%;
+      }
+
+
+      #firstTansaction{
+        width: 50%;
+        margin-left: 3%;
+      }
+
+      #code{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #212121;
+      }
+
+      #paymentAmout{
+        width: 50%;
+      }
+
+      #pay{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #212121;
+      }
+
+      
+
+      #transact1{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 45%;
+        border: 1px solid #E2E2E2;
+        border-radius: 6px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+
+      #transact2{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 45%;
+        border: 1px solid #E2E2E2;
+        border-radius: 6px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+
+
+      #purchase{
+        margin-top: 5%;
+        border: 2px solid #E2E2E2;
+        border-radius: 8px;
+        color: white;
+        background-color: #52057B;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 116px;
+        height: 38px;
+      }
+
+      #help{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 10%;
+        margin-top: 6%;
+      }
+
+      #choice{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 1360px;
+        height: 39px;
+        font-weight: 600;
+        margin-left: 2%;
+      }
+
+      .flexContainer{
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        height: 340%;
+
+      }
+
+      /* .flexContainer > div {
+     
+      } */
+
+      .dot{
+        width: 15%;
+        height: 250%;
+        
+      }
+
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        gap: 2%;
+        background-color: #ffffff;
+        padding: 10px;
+        margin-bottom: 50px;
+        margin-left:2%;
+        width: 95%;
+        
+      }
+     
+
+      .grid-container > div > div:first-child {
+        background-color: #E6E8EC;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        border-radius: 8px;
+        border: 1px solid #E2E2E2;
+        /* height: 130px; */
+      }
+
+      
+
+      
+
+     
+
+      .grid-container > div > div > p{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        font-size: 14px;
+        margin-left: 6%;
+      }
+
+      .grid-container > div > img {
+        width: 30%
+      }
+
+       #cactus{
+        margin-left: 50%;
+        /* margin-bottom: 20px; */
+      }
+
+
+
+      .flexContainer{
+        display: flex;
+        
+      }
+      
+      
+      .IconDivList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 4%;
+      }
+      
+      .IconDivList > div{
+        margin-left: 10%;
+      }
+      
+      .IconDivList>p{
+         width: 50px;
+          height: 50px;
+          text-align: center;
+      }
+      
+      .IconDiv{
+           border: 1px solid #F9F9F9;
+          background-color: #ffffff;
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+          align-items: center;
+      }
+      
+      .IconDiv>img{
+        width: 50%;
+        height: 50%;
+      }
+       
+
+/* 
+      #sale{
+        border: 1px solid rgba(255, 0, 0, 0.1);
+        background-color: rgba(255, 0, 0, 0.1);
+        width: 47px;
+        height: 23px;
+        justify-content: center;
+        text-align: center;
+        color: #FF0000;
+      }
+
+      #sale1{
+        border: 1px solid rgba(255, 0, 0, 0.1);
+        background-color: rgba(255, 0, 0, 0.1);
+        width: 47px;
+        height: 23px;
+        justify-content: center;
+        text-align: center;
+        color: #FF0000;
+      }
+
+      #sale2{
+        border: 1px solid rgba(255, 0, 0, 0.1);
+        background-color: rgba(255, 0, 0, 0.1);
+        width: 47px;
+        height: 23px;
+        justify-content: center;
+        text-align: center;
+        color: #FF0000;
+      }
+
+      #sale3{
+        border: 1px solid rgba(255, 0, 0, 0.1);
+        background-color: rgba(255, 0, 0, 0.1);
+        width: 47px;
+        height: 23px;
+        justify-content: center;
+        text-align: center;
+        color: #FF0000;
+      }
+
+    #sale4{
+      border: 1px solid rgba(255, 0, 0, 0.1);
+        background-color: rgba(255, 0, 0, 0.1);
+        width: 47px;
+        height: 23px;
+        margin-top: 50%;
+        justify-content: center;
+        text-align: center;
+        color: #FF0000;
+    } */
+
+
+    .grid-container1 {
+      display: grid;
+        grid-template-columns: auto auto auto auto auto ;
+        /* grid-template-rows: auto auto auto auto auto; */
+        gap: 2%;
+        /* background-color: #ffffff; */
+        padding: 10px;
+        width: 95%;
+        height: 111px;
+        margin-left: 2%;
+    }
+
+    
+    .grid-container1 > div{
+      /* height: px; */
+      border-radius: 8px;
+      /* margin-top: 20%; */
+      color: #FFFFFF;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+
+   .grid-container1 >div > div{
+    margin-top: 0;
+   }
+
+
+   .grid-container1 >div > div > div > p{
+    margin-bottom: 1%;
+   }
+    
+    #underText{
+      margin-top: 10%;
+      margin-right: 65%;
+    }
+    
+
+    .grid-container2{
+      margin-top: 5%;
+      display: grid;
+      grid-template-columns: auto auto auto auto ;
+      gap: 1%;
+      padding: 10px;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+
+    .grid-container2 > div{
+      border: 1px solid #E2E2E2;
+      border-radius: 8px;
+      width: 329px;
+
+    }
+
+    .grid-container2 > div > p{
+      text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      margin-left: 5%;
+      margin-right: 45%;
+
+    }
+
+    .grid-container2 > div > div{
+      margin-left: 7%;
+      margin-right: 7%;
+    }
+
+    .today{
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 2.5%;
+      font-weight: 600;
+      font-size: 26px;
+      line-height: 150%;
+    }
+
+    .grid-container3{
+      grid-template-columns: 19% 19% 19% 19% 19%;
+      display: grid;
+      gap: 1%;
+      margin-left: 2%;
+      margin-right: 2%;
+      
+      
+      
+    }
+
+    .grid-container3 > div > div{
+      width: 100%;
+      height: 51%;
+    }
+
+    .grid-container3 > div > div:first-child {
+      background-color: #E6E8EC;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+      border-radius: 8px;
+      border: 1px solid #E2E2E2;
+    }
+
+
+    .grid-container3 > div > div > p{
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: left;
+      font-size: 14px;
+      margin-left: 6%;
+    }
+
+  
+
+
+   .Banner{
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 94%;
+    /* align-items: center; */
+
+   }
+
+   
+
+
+   .BestShop{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-size: 26px;
+   }
+
+
+   .grid-container4{
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    display: grid;
+    gap: 1%;
+    margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  
+  .Recomendation{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 3%;
+    font-size: 26px;
+  }
+
+  .grid-container5{
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    display: grid;
+    gap: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+    
+    
+  }
+
+  .grid-container5 > div > div{
+    width: 100%;
+    height: 51%;
+  }
+
+  .grid-container5 > div > div:first-child {
+    background-color: #E6E8EC;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border-radius: 8px;
+    border: 1px solid #E2E2E2;
+  }
+
+
+  .grid-container5 > div > div > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 6%;
+  }
+
+  #openShop{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #212121;
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+
+  #openShop1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 3%;
+  }
+
+  #OpenShop2{
+        margin-bottom: 3%;
+        margin-left: 3%;
+        border: 2px solid #E2E2E2;
+        border-radius: 8px;
+        color: white;
+        background-color: #52057B;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 116px;
+        height: 38px;
+  }
+
+  .BrandCategories{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #212121;
+    margin-top: 7%;
+    margin-left: 3%;
+  }
+
+
+
+  .grid-container6{
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 2.5%;
+    margin-left: 3%;
+    display: grid;
+
+  }
+
+  #FashionMan{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121 ;
+  }
+
+  .agwera{
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #WomanFashion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121 ;
+  }
+
+  .agwera1{
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #Automotive{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121 ;
+  }
+
+  .agwera2{
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #Sports{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121 ;
+  }
+
+  .agwera3{
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #Accesories{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121 ;
+  }
+
+  .agwera4{
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #Gaming{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121 ;
+  }
+
+  .agwera5{
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #Electronic{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121 ;
+  }
+
+  .agwera6{
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #Property{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121 ;
+  }
+
+  .agwera7{
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+    font-family: Arial, Helvetica, sans-serif;
+  }
